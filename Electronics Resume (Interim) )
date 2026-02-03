@@ -1,0 +1,143 @@
+\documentclass[11pt]{article}
+
+% -------------------- Packages --------------------
+\usepackage[letterpaper,margin=0.5in]{geometry} % Slightly tighter margins
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref} % hyperlinks
+\usepackage{xcolor}              % for \textcolor
+\usepackage{mathptmx}            % Times New Roman–like font
+\usepackage[T1]{fontenc}
+
+% -------------------- Formatting --------------------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\titleformat{\section}
+  {\scshape\large\bfseries}
+  {}
+  {0em}
+  {}
+  [\titlerule]
+
+\titlespacing{\section}{0pt}{8pt}{4pt} % Tightened section spacing
+
+\renewcommand{\labelitemi}{\textbullet}
+
+\setlist[itemize]{
+  leftmargin=1.25em,
+  itemsep=0pt,
+  topsep=2pt,
+  parsep=0pt
+}
+
+% URLs are blue
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue
+}
+
+% -------------------- Document --------------------
+\begin{document}
+
+% -------------------- Header --------------------
+\begin{center}
+    {\LARGE \textbf{Rachit Kuklani}} \\[3pt]
+    \small
+    +1 (716) 709-0483 \quad
+    \href{mailto:kuklanirachit@gmail.com}{kuklanirachit@gmail.com} \quad
+    \href{https://www.linkedin.com/in/rachit-kuklani-4a682b282/}{LinkedIn} \quad
+    \href{https://github.com/Kuklani7}{GitHub}
+\end{center}
+
+% -------------------- Education --------------------
+\section*{Education}
+\textbf{University at Buffalo} \hfill Buffalo, NY \\
+\textit{B.Sc. Honors Specialization in Computer Engineering} \hfill \textit{Expected May 2028} \\
+$\bullet$ GPA: 4.0/4.0 \quad --- \quad Dean’s Honor List (Spring 2025, Fall 2025)
+
+% -------------------- Experience --------------------
+\section*{Experience}
+
+\textbf{PLC Programming Intern} \hfill May 2025 -- August 2025 \\
+\textit{Kuksons Electronics} \hfill \textbf{Tech:} Siemens TIA Portal, LAD/FBD, S7-1200/1500, HMI/SCADA
+\begin{itemize}
+    \item Developed and deployed modular PLC programs in LAD/FBD using reusable function blocks in Siemens TIA Portal, creating a standardized automation architecture that reduced integration time across manufacturing lines and improved system maintainability.
+    \item Designed robust FSMs for sequential manufacturing on S7-1200/1500 controllers, improving process accuracy by ~25\%, minimizing downtime from race conditions, and achieving estimated cost savings of ~15\% in lost production time.
+\end{itemize}
+
+\textbf{Algorithms and Complexity — Teaching Assistant} \hfill August 2025 -- Present \\
+\textit{University at Buffalo -- College of Science and Engineering} \hfill \textbf{Tech:} Python, Java, C, NumPy, MySQL
+\begin{itemize}
+
+    \item   Conducted 60+ in-depth \textbf{C/C++} code reviews, mentoring students on pointer arithmetic, manual memory management, and POSIX threads to reduce memory leaks and race conditions, enabling \textbf{95\%} of mentees to achieve \textbf{zero memory leaks} via Valgrind validation. 
+    
+    \item Replaced manual, script-based grading workflows with automated testing suites on Linux/Unix, reducing grading time per submission by \textbf{$\sim$70\%} while enforcing strict memory and time constraints.
+\end{itemize}
+
+% \textbf{Information Technology Intern} \hfill June 2022 -- August 2022 \\
+% \textit{FrieslandCampina} \hfill \textbf{Tech:} Power Automate, Jira, Microsoft Suite
+% \begin{itemize}
+%     \item Built an internal help request platform with Power Automate, streamlining workflow efficiency and integrating Jira for advanced task tracking.
+%     \item Developed a QR-code based inventory tracking system, integrated with Microsoft user accounts, to automate asset management and reduce operational delays.
+% \end{itemize}
+
+% -------------------- Projects --------------------
+\section*{Projects}
+
+\textbf{Analog Modular Synthesizer — Custom PCB and Signal Design} \hfill \textit{Analog Signals, PCB Design, Op-Amps, Power rails}
+
+\begin{itemize}
+    \item Designed voltage-controlled oscillators, filters, and amplifiers using op-amps and wave-shaping circuits on a custom low-noise PCB, reducing signal noise and crosstalk by \textbf{>60\%} compared to breadboard-based designs.
+    
+    \item Built dual-rail power regulation and grounding architecture with decoupling and filtering using LTspice simulations, PCB layout in KiCad, and precision measurement with oscilloscope and multimeter, lowering power ripple to <5 mV and ensuring stable, studio-grade audio output under load.
+
+\end{itemize}
+
+\textbf{Dual-Dimension Graphics Engine (DDGE)}\quad
+{\small \href{https://github.com/Kuklani7/Dual-Dimension-Graphics-Engine}{\textcolor{blue}{[GitHub]}}}
+\hfill
+\textit{C++, Java, Box2D, Vulkan, Git}
+\begin{itemize}
+    \item Engineered a low-level Vulkan rendering pipeline in C++ focused on memory-efficient resource management and deterministic performance, sustaining \textbf{60+ FPS} under high object counts without reliance on high-overhead engines, emphasizing real-time system optimization.
+
+\end{itemize}
+
+
+
+% \textbf{Instant Messenger (RESQME)}\quad
+% {\small \href{https://github.com/Kuklani7/RESQME}{\textcolor{blue}{[GitHub]}}}
+% \hfill
+% \textit{C, Linux/Unix, Sockets, Serialization, Memory Management}
+% \begin{itemize}
+%     \item Developed a socket-based messaging application optimized for low-bandwidth environments, enabling reliable emergency communication in resource-constrained networks using C and Linux/Unix.
+%     \item Implemented low-level packet encoding/decoding logic using bit manipulation and pointer arithmetic to serialize data into byte streams with minimal memory overhead.
+% \end{itemize}
+
+% -------------------- Patent --------------------
+\section*{Patent}
+
+\textbf{AI-Driven Web Content Personalization System}
+\hfill
+{\small \href{https://drive.google.com/file/d/1bOW9uqS_f9fyxJxSQbWkgqVzatYa_XA4/view?usp=sharing}{\textcolor{blue}{[Patent]}}} \\
+\textit{Co-Author — Published with \href{https://iponline.cipc.co.za/}{CIPC} (South Africa)} \hfill \textbf{Tech:} React.js, TypeScript, PostgreSQL, Pandas
+\begin{itemize}
+    \item Designed components of the data storage and processing layer to aggregate behavioral signals for AI-driven personalization, optimizing PostgreSQL queries and Pandas pipelines to reduce data processing latency by ~35\% and improve content recommendation responsiveness.
+\end{itemize}
+% -------------------- Achievements --------------------
+\section*{Achievements}
+
+\begin{itemize}
+    \item Awarded first place in a college Electronics Project Competition for developing an automated irrigation system integrating microcontrollers, sensors, and actuators to optimize water usage.
+    \item Ranked 1\textsuperscript{st} in the Pune district in the International Mathematics Olympiad.
+\end{itemize}
+% -------------------- Skills --------------------
+\section*{Skills \& Interests}
+
+\textbf{Languages:} C, C++, Python, MATLAB \\
+\textbf{Embedded/Hardware:} Arduino, STM32, ESP32, PCB Design (KiCad), LTspice, Op-Amps, Sensors/Actuators \\
+\textbf{Automation:} Siemens TIA Portal, S7 PLCs, HMI/SCADA, FSM Design \\
+\textbf{Tools:} Oscilloscope, Multimeter, Logic Analyzer, Linux, Git
+
+\end{document}
