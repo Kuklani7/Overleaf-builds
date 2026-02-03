@@ -1,0 +1,129 @@
+\documentclass[11pt]{article}
+
+% -------------------- Packages --------------------
+\usepackage[letterpaper,margin=0.5in]{geometry} % Slightly tighter margins
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref} % hyperlinks
+\usepackage{xcolor}              % for \textcolor
+\usepackage{mathptmx}            % Times New Roman–like font
+\usepackage[T1]{fontenc}
+
+% -------------------- Formatting --------------------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\titleformat{\section}
+  {\scshape\large\bfseries}
+  {}
+  {0em}
+  {}
+  [\titlerule]
+
+\titlespacing{\section}{0pt}{8pt}{4pt} % Tightened section spacing
+
+\renewcommand{\labelitemi}{\textbullet}
+
+\setlist[itemize]{
+  leftmargin=1.25em,
+  itemsep=0pt,
+  topsep=2pt,
+  parsep=0pt
+}
+
+% URLs are blue
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue
+}
+
+% -------------------- Document --------------------
+\begin{document}
+
+% -------------------- Header --------------------
+\begin{center}
+    {\LARGE \textbf{Rachit Kuklani}} \\[3pt]
+    \small
+    +1 (716) 709-0483 \quad
+    \href{mailto:kuklanirachit@gmail.com}{kuklanirachit@gmail.com} \quad
+    \href{https://www.linkedin.com/in/rachit-kuklani-4a682b282/}{LinkedIn} \quad
+    \href{https://github.com/Kuklani7}{GitHub}
+\end{center}
+
+% -------------------- Education --------------------
+\section*{Education}
+\textbf{University at Buffalo} \hfill Buffalo, NY \\
+\textit{B.Sc. (Honors Specialization) in Computer Science} \hfill \textit{Expected May 2028} \\
+$\bullet$ GPA: 4.0/4.0\;---\;Dean's Honor List (Spring 2025, Fall 2025)
+
+% -------------------- Experience --------------------
+\section*{Experience}
+
+\textbf{Algorithms and Complexity — Teaching Assistant} \hfill Aug 2025 -- Present \\
+\textit{University at Buffalo -- School of Engineering and Applied Sciences} \hfill \textbf{Tech:} Python, Java, C, NumPy, MySQL
+\begin{itemize}
+    \item Debugged and optimized student implementations of complex algorithms (graph theory, dynamic programming), leveraging NumPy vectorization to reduce computational overhead and help students achieve \textbf{2--5$\times$ faster runtimes}.
+    \item Conducted 60+ in-depth \textbf{C/C++} code reviews, mentoring students on pointer arithmetic, manual memory management, and POSIX threads; automated grading scripts and testing workflows reduced grading time per submission by \textbf{$\sim$70\%}, enabling \textbf{95\%} of mentees to achieve zero memory leaks.
+\end{itemize}
+
+
+\textbf{Software Engineering Intern} \hfill May 2025 -- Aug 2025 \\
+\textit{Kuksons Electronics} \hfill \textbf{Tech:} React, Node.js, SCADA, PostgreSQL, SIEMENS TIA Portal, Docker
+\begin{itemize}
+    \item Developed a responsive frontend dashboard using React to monitor project status and inventory levels for ongoing automation tasks, enabling real-time visibility for engineers and reducing manual status tracking by \textbf{40\%}.
+    \item Created a centralized error-logging database using PostgreSQL and Python to capture PLC runtime faults, enabling engineers to troubleshoot issues \textbf{35\%} faster and perform root-cause analysis on \textbf{40+} daily runtime errors across multiple production lines.
+\end{itemize}
+
+% -------------------- Projects --------------------
+\section*{Projects}
+
+\textbf{Dual-Dimension Graphics Engine (DDGE)}\quad
+{\small \href{https://github.com/Kuklani7/Dual-Dimension-Graphics-Engine}{\textcolor{blue}{[GitHub]}}}
+\hfill
+\textit{C++, Java, Box2D, Vulkan, Git}
+\begin{itemize}
+    \item Engineered a high-performance Vulkan pipeline delivering 60+ FPS in multi-object scenes, achieving \textbf{20--40\%} faster frame preparation than typical student frameworks (OpenGL, SFML, SDL).
+    \item Implemented OOP-based pathfinding and scalable animation frameworks using Java and C++ with Box2D, reducing path computation time by \textbf{$\sim$45\%} and improving frame consistency by \textbf{$\sim$35\%} in physics-heavy scenes.
+\end{itemize}
+
+
+\textbf{Instant Messenger (RESQME)}\quad
+{\small \href{https://github.com/Kuklani7/RESQME}{\textcolor{blue}{[GitHub]}}}
+\hfill
+\textit{C, Linux/Unix, Sockets, Serialization, Memory Management}
+\begin{itemize}
+    \item Developed a socket-based messaging app in \textbf{C} on \textbf{Linux/Unix}, optimized for low-bandwidth environments to enable reliable emergency communication, reducing payload size by \textbf{$\sim$30\%}.
+    \item Implemented packet encoding/decoding in \textbf{C} using bit manipulation and pointer arithmetic, serializing data into compact byte streams and reducing memory overhead by \textbf{$\sim$40\%}.
+.
+\end{itemize}
+
+% -------------------- Patent --------------------
+\section*{Patent}
+
+\textbf{AI-Driven Web Content Personalization System (Patent)}
+\hfill
+{\small \href{https://drive.google.com/file/d/1bOW9uqS_f9fyxJxSQbWkgqVzatYa_XA4/view?usp=sharing}{\textcolor{blue}{[Patent]}}} \\
+\textit{React.js, TypeScript, PostgreSQL, Pandas}
+\begin{itemize}
+    \item Designed data storage pipelines and responsive React/TypeScript UI for AI-driven personalization, reducing data-processing latency by \textbf{$\sim$35\%} and increasing session engagement by \textbf{$\sim$27\%}.
+\end{itemize}
+
+
+% -------------------- Achievements --------------------
+\section*{Achievements}
+
+\begin{itemize}
+    \item Solved \textbf{200+} data-structures and algorithms problems on LeetCode using Java, C, and SQL, strengthening problem-solving skills across graphs, dynamic programming, trees, and binary search.
+    \item Ranked \textbf{1\textsuperscript{st}} in Pune district in the International Mathematics Olympiad.
+\end{itemize}
+
+% -------------------- Skills --------------------
+\section*{Skills \& Interests}
+
+\textbf{Languages:} Python, C, C++, Java, JavaScript, TypeScript, SQL \quad
+\textbf{Frameworks \& Libraries:} React.js, Node.js, Pandas, NumPy, Vulkan, Box2D \\[1pt]
+\textbf{Tools \& Platforms:} Git, Docker, PostgreSQL, Linux/Unix \quad
+\textbf{Core Competencies:} Data Structures \& Algorithms, Full Stack Development, SDLC, API Development, UI/UX
+
+\end{document}
