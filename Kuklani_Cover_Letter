@@ -1,45 +1,32 @@
-\documentclass[12pt]{letter}
-\usepackage[margin=0.9in]{geometry}
+\documentclass[12pt]{article}
+
+\usepackage[letterpaper,margin=0.75in,top=0.55in]{geometry}
 \usepackage{setspace}
 
-% ---------- VARIABLES YOU CHANGE EACH TIME ----------
-\newcommand{\Company}{Amazon}
-\newcommand{\Role}{Software Engineering Internship}
-\newcommand{\Area}{large-scale distributed systems}
-\newcommand{\Strength}{systems programming and performance optimization}
-% ---------------------------------------------------
-
-% Formatting tweaks
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.8em}
-\setstretch{1.08}
+\setlength{\parskip}{0.45em}
+\setstretch{1.03}
+\raggedbottom
 
 \begin{document}
 
-% Remove large default spacing from letter class
-\date{}
+\textbf{Dear Hiring Manager,}
 
-\begin{letter}{}
+I am excited to apply for the Software Engineering Internship because of your focus on building scalable, reliable systems that power real-world applications. During my internship, I developed React-based dashboards to monitor inventory levels and built SQL-driven logging workflows to analyze PLC runtime faults, improving how engineers diagnosed production issues. Additionally, through my work as an Algorithms Teaching Assistant, I have regularly optimized code for runtime and memory efficiency, strengthening my ability to write robust and efficient applications.
 
-\vspace*{-2.5em}
+As a Teaching Assistant for Algorithms and Complexity, I regularly debug and optimize student implementations involving graph theory and dynamic programming across domains such as routing, web crawling, and resource allocation. Working extensively with C/C++, pointer arithmetic, and manual memory management trained me to think like a systems engineer focused on minimizing memory leaks and improving runtime efficiency through careful design and analysis.
 
-\opening{Dear Hiring Manager,}
+During my internship at Kuksons Electronics, I standardized PLC programs and built a centralized error-logging database that improved root-cause analysis speed by 35\% across manufacturing lines. This experience also led me to collaborate on a patented AI-driven web content personalization system, where I developed a responsive React and TypeScript interface that improved user retention by 27\%.
 
-I am excited to apply for the \Role\ at \Company\ because of your focus on building scalable, reliable systems that power real-world applications. During my internship, I developed React-based dashboards to monitor inventory levels and project status and built SQL-driven logging workflows to capture and analyze PLC runtime faults, improving how engineers diagnosed production issues. Additionally, through my work as an Algorithms Teaching Assistant, I have regularly optimized code for runtime and memory efficiency, strengthening my ability to write robust and efficient applications.
+In a personal project, I engineered a Dual-Dimension Graphics Engine using Vulkan that sustained 60+ FPS in multi-object scenes through an optimized rendering pipeline. I implemented scalable animation systems and applied object-oriented design in Java and C++ with Box2D to improve frame consistency by 35\% in physics-intensive environments.
 
-As a Teaching Assistant for Algorithms and Complexity, I regularly debug and optimize student implementations involving graph theory and dynamic programming across practical domains such as routing, web crawling, and resource allocation. This role strengthened my ability to reason about performance, correctness, and edge cases in real codebases. Working extensively with C/C++, pointer arithmetic, and manual memory management also trained me to think like a systems engineer, where I focused on minimizing memory leaks and improving runtime efficiency through careful code design and analysis.
+I am excited to contribute to T-Mobile’s Traditional Out-Of-Home (OOH) platform, where modern UI and APIs drive real-world impact. At Kuksons Electronics, I built React dashboards and a PostgreSQL logging system that improved visibility and troubleshooting, directly aligning with UI and workflow development. As an Algorithms Teaching Assistant and through C/Linux projects, I strengthened my debugging and problem-solving skills, preparing me to thrive in T-Mobile’s agile engineering environment.
 
-During my internship at Kuksons Electronics, I developed and standardized PLC programs using Ladder Logic and FBD to streamline automation code deployment. I also built a centralized error-logging database that improved root-cause analysis speed by 35\% across manufacturing lines. This experience led me to collaborate with researchers at MIT-WPU on a patented AI-driven web content personalization system, where I developed a responsive React and TypeScript interface that improved user retention by 27\%.
 
-In a personal project, I engineered a Dual-Dimension Graphics Engine using Vulkan that sustained 60+ FPS in multi-object scenes through an optimized rendering pipeline. I implemented scalable animation systems using sprite sheets and applied object-oriented design in Java and C++ with Box2D to improve frame consistency by 35\% in physics-intensive environments.
 
-I am particularly drawn to \Company\ because of its work in \Area, which aligns strongly with my background in \Strength. I would welcome the opportunity to contribute and further develop these skills as part of your team.
+\vspace{0.6em}
 
-\vspace{0.5em}
-
-\closing{Best regards,\\
-Rachit Kuklani}
-
-\end{letter}
+\textbf{Best regards,}\\
+Rachit Kuklani
 
 \end{document}
