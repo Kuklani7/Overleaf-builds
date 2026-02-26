@@ -1,0 +1,32 @@
+\documentclass[12pt]{article}
+
+\usepackage[letterpaper,margin=0.75in,top=0.55in]{geometry}
+\usepackage{setspace}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45em}
+\setstretch{1.03}
+\raggedbottom
+
+\begin{document}
+
+\textbf{Dear Hiring Manager,}
+
+I am excited to apply for the Software Engineering Internship because of your focus on building scalable, reliable systems that power real-world applications. During my internship, I developed React-based dashboards to monitor inventory levels and built SQL-driven logging workflows to analyze PLC runtime faults, improving how engineers diagnosed production issues. Additionally, through my work as an Algorithms Teaching Assistant, I have regularly optimized code for runtime and memory efficiency, strengthening my ability to write robust and efficient applications.
+
+As a Teaching Assistant for Algorithms and Complexity, I regularly debug and optimize student implementations involving graph theory and dynamic programming across domains such as routing, web crawling, and resource allocation. Working extensively with C/C++, pointer arithmetic, and manual memory management trained me to think like a systems engineer focused on minimizing memory leaks and improving runtime efficiency through careful design and analysis.
+
+During my internship at Kuksons Electronics, I standardized PLC programs and built a centralized error-logging database that improved root-cause analysis speed by 35\% across manufacturing lines. This experience also led me to collaborate on a patented AI-driven web content personalization system, where I developed a responsive React and TypeScript interface that improved user retention by 27\%.
+
+In a personal project, I engineered a Dual-Dimension Graphics Engine using Vulkan that sustained 60+ FPS in multi-object scenes through an optimized rendering pipeline. I implemented scalable animation systems and applied object-oriented design in Java and C++ with Box2D to improve frame consistency by 35\% in physics-intensive environments.
+
+I am particularly drawn to Westinghouse Electric Company because of your commitment to safety-critical software development and robust engineering processes. My background in C++ systems programming and performance optimization aligns with your requirements for developing software tools and supporting automated verification workflows. I am eager to apply my experience with dashboards and version control to support engineering decisions and contribute to the high-reliability standards of your software components in a collaborative team environment.
+
+
+
+\vspace{0.6em}
+
+\textbf{Best regards,}\\
+Rachit Kuklani
+
+\end{document}
